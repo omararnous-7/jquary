@@ -1,0 +1,134 @@
+.home {
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.layer {
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+
+#home h1 {
+    font-size: 60px;
+}
+
+/* #sideBar {
+    display: flex;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    align-self: flex-start;
+
+    position: fixed;
+    align-items: start;
+    
+} */
+
+
+
+/* 
+.sssss {
+
+    transform: translateY(00%);
+    cursor: pointer;
+    align-self: flex-start;
+    justify-self: flex-start;
+} */
+
+
+/* .sideBar-content a {
+
+    display: flex;
+
+} */
+
+
+#sideBar {
+   position:absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+
+
+.sideBar-content {
+    background-color: #111111;
+    color: white;
+
+
+}
+
+#sideBar p {
+    
+    align-self: center;
+    color: #fff;
+
+}
+
+
+
+
+
+.back-color {
+    background-color: #E68285;
+    color: white;
+    cursor: pointer;
+}
+
+/* section 2*/
+.border {
+    border: 1px solid #fff;
+}
+
+
+.content-senger{    
+    background-color: gray;
+    display: none;
+
+}
+
+/* section 3*/
+.image-3-section {
+    background-image: url(../img/240_F_373064486_sZBZcI81gTRxLWKFVBDdax6Do9QYltKU.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+
+}
+
+.thd-content {
+    color: #fff;
+}
+
+.layer-3-section {
+    background-color: rgba(214, 46, 51, 0.6);
+
+    left: 0;
+    right: 0;
+
+}
